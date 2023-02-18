@@ -112,7 +112,7 @@ header img {
 .features .icons {
     width: 25%;
     float: left;
-    margin-left: 62px;
+    margin-left: 100px;
     text-align: center;
 }
 
@@ -120,3 +120,57 @@ header img {
     font-size: 42px;
     margin-left: 30px;
 }
+
+.best h1 {
+    font-size: 35px;
+    text-align: center;
+    color: rgb(47, 183, 218);
+    margin-top: 320px;
+}
+
+.best span {
+    color: black;
+}
+
+.best .card {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    margin-left: 22px;
+    border: 1px solid #00ffff;
+    margin-bottom: 12px;
+    border-radius: 70%;
+  }
+  
+.best  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+.best  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color:#00ffff;
+    cursor: pointer;
+    width: 40%;
+    border-radius: 90px;
+    font-size: 18px;
+  }
+  
+ .best .card button:hover {
+    opacity: 0.7;
+  }
+
+  .best .card img {
+    width: 50px;
+    height: 170px;
+  }
+
+  .best .card a {
+    color: yellow;
+    margin-left: 32px;
+  }
