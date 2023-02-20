@@ -243,6 +243,15 @@ header a {
   .rec span {
     color: #00ffff;
   }
+
+  @media screen and (max-width: 992px) {   
+    .rec {
+      font-size: 25px;
+      text-align: center;
+      margin-left: 10px;
+    }
+  }
+
 .caret {
   cursor: pointer;
   -webkit-user-select: none; /* Safari 3.1+ */
