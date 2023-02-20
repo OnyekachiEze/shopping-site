@@ -29,6 +29,8 @@ body {
 
 .navbar .icon {
     display: none;
+    margin-right: 25px;
+    background-color: #00ffff;
 }
 
 
