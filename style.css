@@ -177,6 +177,19 @@ header img {
     margin-left: 32px;
   }
 
+  .you {
+    display: flex;
+  }
+
+  .rec {
+    font-size: 35px;
+    text-align: center;
+    margin-left: 120px;
+  }
+
+  .rec span {
+    color: #00ffff;
+  }
 .caret {
   cursor: pointer;
   -webkit-user-select: none; /* Safari 3.1+ */
@@ -186,17 +199,15 @@ header img {
   background-color: #00ffff;
   border-radius: 12px;
   padding: 12px;
-  float: left;
   width: 100px;
   margin-left: 120px;
+  display: flex;
 }
 
 .caret::before {
   content: "\25B6";
   color: black;
   display: inline-block;
-  margin-right: 6px;text-align: center;
-  margin-left: 120px;
 }
 
 .caret-down::before {
@@ -266,6 +277,7 @@ header img {
   }
   
   .p03__title{
+    text-align: center;
     font-size: 3rem;
     font-family: "Circular Std Black";
     color: #3c3c46;
@@ -427,4 +439,6 @@ header img {
     }
   
   }
+  
+
   
