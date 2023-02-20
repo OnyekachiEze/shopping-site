@@ -55,6 +55,7 @@ body {
         display: block;
         text-align: left;
     }
+    
 
 }
 
@@ -76,9 +77,8 @@ header span {
 header button {
     background-color: #00ffff;
     border-color: aqua;
-    padding: 8px;
     border-radius: 14px;
-    margin-left: 12px;
+    width: 20%;
 }
 
 header a {
@@ -89,6 +89,35 @@ header a {
 
 header img {
     width: 100%;
+}
+
+@media screen and (max-width: 992px) {   
+  header h1 {
+    font-size: 33px;
+    margin-top: 88px;
+  }
+  header p {
+    font-weight: bolder;
+  }
+
+  header img {
+    margin-top: 62px;
+    width: 100%;
+  }
+
+  header button {
+    background-color: #00ffff;
+    border-color: aqua;
+    padding: 4px;
+    border-radius: 14px;
+    width: 70%;
+}
+
+header a {
+  text-align:start;
+}
+  
+
 }
 
 .features h1 {
@@ -119,6 +148,28 @@ header img {
     margin-left: 30px;
 }
 
+@media screen and (max-width: 992px) {   
+  .features h1 {
+    font-size: 30px;
+}
+
+.features h2 {
+  font-size: 25px;
+  text-align: center;
+  margin-right: 22px;
+}
+
+.features .icons {
+  width: 75%;
+  float: left;
+  margin-left: 60px;
+  text-align: center;
+}
+
+
+
+}
+
 
 .best {
     margin-left: 42px;
@@ -139,7 +190,7 @@ header img {
     margin: auto;
     text-align: center;
     font-family: arial;
-    float: left;
+    float: right;
     margin-left: 22px;
     border: 1px solid #00ffff;
     margin-bottom: 12px;
@@ -437,7 +488,17 @@ header img {
     .row.primary {
       grid-template-columns: 1fr;
     }
+    .you {
+      display:contents;
+      margin-left: 0;
+    }
   
+  }
+
+  @media screen and (max-width: 50px) {
+  .you {
+    display: contents;
+  }
   }
   
 
