@@ -23,14 +23,16 @@ body {
 }
 
 .navbar a:hover {
-    background-color: #ddd;
+    background-color:#27bcda;
     color: black;
 }
 
 .navbar .icon {
     display: none;
+    color: red;
     margin-right: 25px;
     background-color: #00ffff;
+    cursor: pointer;
 }
 
 
@@ -184,6 +186,7 @@ header a {
 
 .best {
     margin-left: 42px;
+    margin-top: 420px;
 }
 .best h1 {
     font-size: 35px;
@@ -477,6 +480,7 @@ header a {
     font-size: 2.4em;
     flex-direction: row;
     margin-top: 0.5em;
+    cursor: pointer;
   }
   .social i {
     color: #bac6d9;
